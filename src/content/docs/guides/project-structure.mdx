@@ -1,0 +1,49 @@
+---
+title: Project structure
+---
+
+### Files and directories
+
+- `.expo/` — Created when an Expo project is started using "expo start" command.
+- `.storybook/` — Configuration files for Storybook UI that runs inside the native app.
+- `.storybook_server/` — Configuration files for Storybook Server that runs on the browser that you can use to select a component in the native app to preview it.
+- `assets/` — App logo and splash screen images.
+- `src/` — Other source code and files (components, data, hooks, navigation, etc.) of the project.
+
+### Example project contents
+
+Food Star project directory looks like this:
+
+import FileTree from '../../../components/file-tree.astro';
+
+<FileTree>
+- .expo/
+- .storybook/
+- .storybook_server/
+- assets/
+- src/
+     - assets/
+     - auth/
+     - cart/
+     - components/
+     - data/
+     - hooks/
+     - navigation/
+     - screens/
+     - theme/
+     - utils/
+- .eslintignore
+- .eslintrc.js
+- .gitignore
+- .prettierrc.js
+- app.json
+- App.tsx
+- babel.config.js
+- eas.json
+- metro.config.js
+- package.json
+- tsconfig.json
+- yarn.lock
+</FileTree>
+
+
