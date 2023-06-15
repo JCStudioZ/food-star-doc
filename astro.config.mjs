@@ -5,9 +5,10 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   integrations: [
     starlight({
-      title: '',
+      title: 'Food Star',
       logo: {
-        src: './src/assets/logo.png',
+        src: '/src/assets/logo.png',
+        replacesTitle: true,
       },
       sidebar: [
         {
