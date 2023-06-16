@@ -1,5 +1,7 @@
 # Food Star UI Template Documentation
 
+[Read the Food Star Docs](https://foodstar-doc.netlify.app/getting-started/)
+
 Check out [Food Star UI Template for React Native](https://jcstudioz.netlify.app/)
 
 ## 🚀 Project Structure
